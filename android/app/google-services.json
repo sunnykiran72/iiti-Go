@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "815567470549",
+    "project_id": "iiti-go",
+    "storage_bucket": "iiti-go.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815567470549:android:b61e11a6914f33cb07475c",
+        "android_client_info": {
+          "package_name": "com.launch.iiti_go"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815567470549-6rjc7pp5o1t1sbtm34t5rgo4pidmbnc4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.launch.iiti_go",
+            "certificate_hash": "01b4638769e17d39ca77c590d2eeae46a73f4fb6"
+          }
+        },
+        {
+          "client_id": "815567470549-hteh3hru4v4upp0jg7l20b22r5ec4ljb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmD_8q5KCOgRMzfKYDSLGK6DUDqQbGFYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815567470549-hteh3hru4v4upp0jg7l20b22r5ec4ljb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

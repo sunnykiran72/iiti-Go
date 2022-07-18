@@ -1,0 +1,112 @@
+{
+    "id":1,
+    "attributes":{},
+    "name":"admin",
+    "login":null,
+    "email":"admin",
+    "phone":null,
+    "readonly":false,
+    "administrator":true,
+    "map":null,
+    "latitude":0.0,
+    "longitude":0.0,
+    "zoom":0,
+    "twelveHourFormat":false,
+    "coordinateFormat":null,
+    "disabled":false,
+    "expirationTime":null,
+    "deviceLimit":-1,
+    "userLimit":0,
+    "deviceReadonly":false,
+    "token":null,
+    "limitCommands":false,
+    "poiLayer":null,
+    "disableReports":false,
+    "password":null
+    } 
+
+   //  Data Map 
+
+    {
+         positions: [ 
+                   {
+                    id: 2400,
+                    attributes: {sat: 15, ignition: false, distance: 49.84, totalDistance: 8656773.24, motion: true},
+                    deviceId: 1, 
+                    protocol: gt06, 
+                    serverTime: 2022-06-27T12:18:54.351+00:00, 
+                    deviceTime: 2022-06-27T17:48:53.000+00:00, 
+                    fixTime: 2022-06-27T17:48:53.000+00:00, 
+                    outdated: false, 
+                    valid: true, 
+                    latitude: 22.528055555555554, 
+                    longitude: 75.91996444444443, 
+                    altitude: 0.0, 
+                    speed: 11.339097,
+                    course: 61.0, 
+                    address: null, 
+                    accuracy: 0.0, 
+                    network: {radioType: gsm, considerIp: false, cellTowers: [{cellId: 33322, locationAreaCode: 7225, mobileCountryCode: 404, mobileNetworkCode: 93}]}
+                },
+                   
+                {
+                    id: 2519,
+                    attributes: {sat: 15, ignition: false, distance: 37.49, totalDistance: 16082.28, motion: true},
+                    deviceId: 2, 
+                    protocol: gt06, 
+                    serverTime: 2022-06-28T02:51:18.162+00:00, 
+                    deviceTime: 2022-06-28T08:21:15.000+00:00, 
+                    fixTime: 2022-06-28T08:21:15.000+00:00, 
+                    outdated: false, 
+                    valid: true, 
+                    latitude: 22.52822666666667, 
+                    longitude: 75.92005333333334, 
+                    altitude: 0.0, 
+                    speed: 14.038882000000001, 
+                    course: 48.0, 
+                    address: null, 
+                    accuracy: 0.0, 
+                    network: {radioType: gsm, considerIp: false, cellTowers: [{cellId: 33322, locationAreaCode: 7225, mobileCountryCode: 404, mobileNetworkCode: 93}]}}
+                    ]}
+
+{devices: [
+  {id: 8, attributes: {}, groupId: 0, name: GV 01, uniqueId: 358735075560762, status: online, lastUpdate: 2022-06-30T08:05:51.851+00:00, positionId: 3104, geofenceIds: [2], phone: null, model: null, contact: null, category: car, disabled: false}]}
+
+
+{devices: [{id: 8, attributes: {}, groupId: 0, name: GV 01, uniqueId: 358735075560762, status: online, lastUpdate: 2022-06-30T08:05:53.528+00:00, positionId: 3104, geofenceIds: [2], phone: null, model: null, contact: null, category: car, disabled: false}]}
+[log] {positions: [{id: 3105, attributes: {status: 4, ignition: false, charge: true, blocked: false, batteryLevel: 100, rssi: 4, distance: 0.0, totalDistance: 8578572.79, motion: true}, deviceId: 8, protocol: gt06, serverTime: 2022-06-30T08:05:53.527+00:00, deviceTime: 2022-06-30T08:05:53.527+00:00, fixTime: 2022-06-30T13:19:05.000+00:00, outdated: true, valid: true, latitude: 22.52868, longitude: 75.91707555555556, altitude: 0.0, speed: 5.939527, course: 115.0, address: null, accuracy: 0.0, network: null}]}
+
+
+{positions: [{id: 3107, attributes: {sat: 9, ignition: false, distance: 18.76, totalDistance: 8578591.55, motion: false}, deviceId: 8, protocol: gt06, serverTime: 2022-06-30T08:06:40.254+00:00, deviceTime: 2022-06-30T13:36:39.000+00:00, fixTime: 2022-06-30T13:36:39.000+00:00, outdated: false, valid: true, latitude: 22.528642222222224, longitude: 75.91725333333333, altitude: 0.0, speed: 0.0, course: 6.0, address: null, accuracy: 0.0, network: {radioType: gsm, considerIp: false, cellTowers: [{cellId: 33322, locationAreaCode: 7225, mobileCountryCode: 404, mobileNetworkCode: 93}]}}]}
+
+
+device info 
+
+[
+ { id: 8,
+    attributes: {},
+    groupId: 0, 
+    name: GV 01, 
+    uniqueId: 358735075560762, 
+    status: unknown, 
+    lastUpdate: 2022-06-30T08:09:43.195+00:00, 
+    positionId: 3107, 
+    geofenceIds: [2], 
+    phone: null, model: null, contact: null, category: car, 
+    disabled: false}, 
+  {  
+    id: 9, 
+    attributes: {},
+     groupId: 0, name: GV 10, uniqueId: 358735075953371, status: offline, lastUpdate: null, positionId: 0, geofenceIds: [], phone: null, model: null, contact: null, category: car, disabled: false}]
+
+
+
+
+{devices: [{id: 13, attributes: {}, groupId: 0, name: setrack GV 02, uniqueId: 355172104251424, status: online, lastUpdate: 2022-07-18T05:49:07.050+00:00, positionId: 18154, geofenceIds: [6], phone: null, model: null, contact: null, category: car, disabled: false}]}
+[log] {positions: [{id: 18155, attributes: {sat: 15, ignition: true, event: 2, archive: false, odometer: 203100, distance: 15.73, totalDistance: 8791078.65, motion: true, hours: 1657340851000}, deviceId: 13, protocol: gt06, serverTime: 2022-07-18T05:49:07.050+00:00, deviceTime: 2022-07-18T00:19:01.000+00:00, fixTime: 2022-07-18T00:19:01.000+00:00, outdated: false, valid: true, latitude: 22.52567555555556, longitude: 75.92173333333334, altitude: 0.0, speed: 9.719226, course: 142.0, address: null, accuracy: 0.0, network: {radioType: gsm, considerIp: false, cellTowers: [{cellId: 33322, locationAreaCode: 7225, mobileCountryCode: 404, mobileNetworkCode: 93}]}}]}
+
+
+{devices: [{id: 13, attributes: {}, groupId: 0, name: setrack GV 02, uniqueId: 355172104251424, status: online, lastUpdate: 2022-07-18T07:04:29.075+00:00, positionId: 18469, geofenceIds: [6, 7], phone: null, model: null, contact: null, category: car, disabled: false}]}
+E/FrameEvents( 1522): updateAcquireFence: Did not find frame.
+[log] {events: [{id: 3032, attributes: {}, deviceId: 13, type: geofenceEnter, eventTime: 2022-07-18T01:34:22.000+00:00, positionId: 18470, geofenceId: 7, maintenanceId: 0}]}
+[log] {positions: [{id: 18470, attributes: {sat: 15, ignition: true, event: 2, archive: false, odometer: 209217, distance: 12.36, totalDistance: 8797684.68, motion: true, hours: 1657342392000}, deviceId: 13, protocol: gt06, serverTime: 2022-07-18T07:04:29.075+00:00, deviceTime: 2022-07-18T01:34:22.000+00:00, fixTime: 2022-07-18T01:34:22.000+00:00, outdated: false, valid: true, latitude: 22.527875555555557, longitude: 75.92109333333333, altitude: 0.0, speed: 8.639312, course: 82.0, address: NH347BG, Madhya Pradesh, IN, accuracy: 0.0, network: {radioType: gsm, considerIp: false, cellTowers: [{cellId: 33322, locationAreaCode: 7225, mobileCountryCode: 404, mobileNetworkCode: 93}]}}]}
