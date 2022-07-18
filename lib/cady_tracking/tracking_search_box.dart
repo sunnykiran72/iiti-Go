@@ -203,7 +203,7 @@ class _TrackingSearchBoxState extends State<TrackingSearchBox> {
         //   }
         // }
         if (deviceNos.isNotEmpty) {
-          log('$deviceNos');
+          log('$deviceNos opoityg');
           setState(() {
             searchingData = false;
           });
@@ -223,6 +223,7 @@ class _TrackingSearchBoxState extends State<TrackingSearchBox> {
       } on Exception catch (error) {
         setState(() {
           searchingData = false;
+          // other
           notFoundTrackingData = true;
         });
 
