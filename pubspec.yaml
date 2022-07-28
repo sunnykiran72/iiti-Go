@@ -43,9 +43,6 @@ dependencies:
   web_socket_channel: ^2.2.0
   dio: ^4.0.6
   geopoint: ^1.0.0
-  provider: ^6.0.3
-  connectivity_plus: ^2.3.5
-  # intl: ^0.17.0
 
 dev_dependencies:
   flutter_test:
@@ -116,7 +113,7 @@ flutter_native_splash:
     # 640 pixels in diameter.
     # App icon without an icon background: This should be 1152×1152 pixels, and fit within a circle
     # 768 pixels in diameter.
-    #image: assets/android12splash.png
+    image: assets/images/iiti_logo.png
 
     # App icon background color.
     #icon_background_color: "#111111"

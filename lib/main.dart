@@ -4,14 +4,12 @@ import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:iiti_go/cady_schedule/cady_schedule.dart';
 import 'package:iiti_go/cady_tracking/cady_tracking.dart';
-import 'package:provider/provider.dart';
 import 'constants/colors_constants.dart';
 import 'firebase_options.dart';
 import 'package:flutter/material.dart';
 import 'package:iiti_go/home_screen/home_screen.dart';
 import 'package:iiti_go/sign_in/sign_in.dart';
 import 'iiti_contacts/iiti_contacts.dart';
-import 'internet_connectivity.dart';
 
 // C:\tools\dart-sdk\bin     -- environmental variable -- path
 
@@ -36,7 +34,7 @@ class MyApp extends StatelessWidget {
           // fascinate ,kaushanScript , paytoneOne ,lemon , cevicheOne , fingerPaint eastSeaDokdo
           textTheme: TextTheme(
             headline1: GoogleFonts.lemon(
-                color: const Color.fromARGB(255, 5, 89, 153),
+                color: const Color(0xFF055999),
                 fontSize: 60,
                 letterSpacing: 3,
                 shadows: const [
@@ -78,10 +76,6 @@ class MyHomePage extends StatelessWidget {
     if (FirebaseAuth.instance.currentUser == null) {
       return const SignInPage();
     } else {
-//  StreamProvider(
-//           initialData: NetworkStatus.online,
-//           create: (context) => CheckInternetConnectivity().controller.stream,
-//           child: const HomeScreen());
       return const HomeScreen();
     }
   }
