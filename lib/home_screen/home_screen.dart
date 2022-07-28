@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
       child: SizedBox(
         height: 150,
         child: Card(
-          shadowColor: Color.fromARGB(255, 45, 152, 234),
+          shadowColor: const Color.fromARGB(255, 45, 152, 234),
           elevation: 6,
           margin:
               const EdgeInsets.only(left: 10, right: 8, top: 10, bottom: 10),
@@ -32,7 +32,7 @@ class HomeScreen extends StatelessWidget {
           child: Row(
             children: [
               Container(
-                color: Color.fromARGB(255, 4, 87, 151),
+                color: const Color.fromARGB(255, 4, 87, 151),
                 width: 10,
                 // height: 180,
               ),
@@ -47,7 +47,7 @@ class HomeScreen extends StatelessWidget {
                               .textTheme
                               .headline2!
                               .copyWith(
-                                  color: Color.fromRGBO(0, 0, 0, 1),
+                                  color: const Color.fromRGBO(0, 0, 0, 1),
                                   fontSize: 21)),
 
                       //const SizedBox(height: 15),

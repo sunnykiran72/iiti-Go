@@ -22,7 +22,7 @@ class NoTrackingData extends StatelessWidget {
           Text(
             message,
             textAlign: TextAlign.center,
-            style: TextStyle(
+            style: const TextStyle(
                 color: Color.fromARGB(137, 45, 28, 28),
                 fontWeight: FontWeight.bold,
                 fontSize: 16),

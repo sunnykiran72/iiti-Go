@@ -220,7 +220,7 @@ class _TrackingSearchBoxState extends State<TrackingSearchBox> {
             notFoundTrackingData = true;
           });
         }
-      } on Exception catch (error) {
+      } on Exception {
         setState(() {
           searchingData = false;
           // other

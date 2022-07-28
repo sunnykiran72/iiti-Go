@@ -10,13 +10,13 @@ class LocationChips {
         label: healthcenter, backgroundColor: Colors.redAccent, shorcut: 'HC'),
     ChipData(
         label: pod1b,
-        backgroundColor: Color.fromARGB(255, 124, 181, 63),
+        backgroundColor: const Color.fromARGB(255, 124, 181, 63),
         shorcut: 'P'),
     ChipData(label: library, backgroundColor: Colors.teal, shorcut: 'L'),
     ChipData(label: gate1, backgroundColor: Colors.pinkAccent, shorcut: '1'),
     ChipData(
         label: hub,
-        backgroundColor: Color.fromARGB(255, 39, 36, 239),
+        backgroundColor: const Color.fromARGB(255, 39, 36, 239),
         shorcut: 'H'),
   ];
 }

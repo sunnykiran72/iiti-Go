@@ -10,7 +10,7 @@
     </queries>
 
    <application
-        android:label="iiti Go"      
+        android:label="iiti Go"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
